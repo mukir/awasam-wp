@@ -1,0 +1,47 @@
+/*  Sales Notification
+    -------------------------------------------------------------------------------------------*/
+.alert-minimalist {
+  background-color : #244DDC;
+  border-radius : 5px;
+  -webkit-box-shadow : 0 5px 40px rgba(14, 42, 76, 0.2);
+          box-shadow : 0 5px 40px rgba(14, 42, 76, 0.2);
+  padding : 10px;
+  margin-left: 50%;
+  width : 350px;
+  z-index : 2147483648 !important;
+}
+.alert-minimalist [data-notify='dismiss'] {
+  color : #ffffff;
+}
+.alert-minimalist #image {
+  float : left;
+}
+.alert-minimalist #image [data-notify='icon'] {
+  height : 60px;
+  margin-right : 12px;
+}
+.alert-minimalist #text {
+  float : left;
+  margin-top : 2px;
+}
+.alert-minimalist #text [data-notify='title'] {
+  color : #ffffff;
+  line-height : 1rem;
+  display : block;
+  font-size : 85%;
+  font-weight : 700;
+}
+.alert-minimalist #text [data-notify='message'] {
+  font-size : 80%;
+   color : #E9A447;
+}
+.alert-minimalist #text [data-notify='message'] span.blue {
+  color : #ffffff;
+  font-weight : 700;
+}
+.alert-minimalist #text [data-notify='time'] {
+  display : block;
+  font-size : 70%;
+  color : #ffffff;
+  margin-top : 4px;
+}
