@@ -393,7 +393,7 @@ Check your paper. If it meets your requirements, approve and download it. If cha
 </div>
 </aside>
 		
-<a href="/order" class="button">Order Custom Paper Now </a>
+<a href='. get_option('button_link') .' class="button">Order Custom Paper Now </a>
  </div>                 
 	</main>    
 
